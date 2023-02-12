@@ -1,0 +1,41 @@
+.navList {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    font-size: larger;
+
+    margin-bottom: 30px;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    z-index: 100;
+    width: 100%;
+
+}
+
+.navLink {
+    color: pink;
+    align-items: center;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.h {
+    display: flex;
+    justify-content: center;
+    color: darkorchid;
+    text-transform: uppercase;
+    padding: 40px;
+    margin: 0;
+}
+
+.active {
+    color: aqua;
+}
